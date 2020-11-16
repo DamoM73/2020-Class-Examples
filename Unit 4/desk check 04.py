@@ -3,7 +3,7 @@ serial = input("Enter serial number: ")
 valid = True
 counter = 1
 
-if len(serial) == 4 and serial[0] == "#":
+if len(serial) == 5 and serial[0] == "#":
     while counter < 4 and valid:
         if serial[counter].isdigit():
             valid = True
